@@ -1,0 +1,10 @@
+file_format: "1"
+id: rcorne
+name: ReducedCorne
+type: shield
+url: https://github.com/Lugarun/zmk-config
+features:
+  - keys
+siblings:
+  - rcorne_left
+  - rcorne_right

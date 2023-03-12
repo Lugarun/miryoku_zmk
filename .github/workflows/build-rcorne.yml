@@ -1,0 +1,9 @@
+name: 'Build reduced corne feather'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["adafruit_feather_nrf52840"]'
+      shield: '["rcorne_left","rcorne_right"]'
